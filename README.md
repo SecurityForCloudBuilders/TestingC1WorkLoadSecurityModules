@@ -12,9 +12,10 @@ O Workload Security é composto pelos seguintes modulos:
 * Intrusion Prevention
 
 # Ambiente de teste
-* Ubuntu
-* Centos
+* Ubuntu 18.04
 
 Para executar os testes o pré-requisito é possuir uma conta no Cloud One https://cloudone.trendmicro.com/
 
 <img src="PolicyLinux.jpg" alt="ADD Azure" width="65%"> </img>
+
+<img src="C1SW.jpg" alt="ADD Azure" width="65%"> </img>
