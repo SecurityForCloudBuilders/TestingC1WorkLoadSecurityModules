@@ -16,12 +16,17 @@ O Workload Security é composto pelos seguintes modulos:
 
 Para executar os testes o pré-requisito é possuir uma conta no Cloud One (sem custo) https://cloudone.trendmicro.com/
 * Documentação https://cloudone.trendmicro.com/docs/workload-security/
-
+* Liberar as seguintes portas https://cloudone.trendmicro.com/docs/workload-security/communication-ports-urls-ip/
 
 # Instalando o agent
 
 <img src="C1WS.jpg" alt="ADD Azure" width="75%"> </img>
 
+
+# Aplique uma politica 
+
+
+# Alterando Heartbeat
 
 <img src="PolicyLinux.jpg" alt="ADD Azure" width="75%"> </img>
 
