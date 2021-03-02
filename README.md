@@ -14,8 +14,14 @@ O Workload Security é composto pelos seguintes modulos:
 # Ambiente de teste
 * Ubuntu 18.04
 
-Para executar os testes o pré-requisito é possuir uma conta no Cloud One https://cloudone.trendmicro.com/
+Para executar os testes o pré-requisito é possuir uma conta no Cloud One (sem custo) https://cloudone.trendmicro.com/
+Documentação https://cloudone.trendmicro.com/docs/workload-security/
 
-<img src="PolicyLinux.jpg" alt="ADD Azure" width="65%"> </img>
 
-<img src="C1SW.jpg" alt="ADD Azure" width="65%"> </img>
+# Instalando o agent
+<img src="C1WS.jpg" alt="ADD Azure" width="75%"></img>
+
+
+<img src="PolicyLinux.jpg" alt="ADD Azure" width="75%"></img>
+
+
