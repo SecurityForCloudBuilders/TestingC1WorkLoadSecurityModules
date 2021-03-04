@@ -77,6 +77,8 @@ pindorama-node1:~$ ./c1-ws-test-modules.sh
 
 O script não executa nenhuma atividade maliciosa que possa impactar o ambiente.
 
+Após a execução dos comandos os eventos estarão disponiveis na aba "Events" de cada evento.
+
 
 # Objetivos & Casos de uso
 
