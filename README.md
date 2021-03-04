@@ -1,7 +1,7 @@
 # TestingC1WorkLoadSecurityModules
 Um guia de como testar os módulos Cloud One Workload Security.
 
-O Workload Security é composto pelos seguintes modulos:
+O Workload Security é composto pelos seguintes modulos, nesse script iremos testar alguns.
 
 - Anti-Malware
 - Web Reputation	
@@ -57,17 +57,21 @@ O Recommendation Scans identifica:
 - Executando processos e serviços
 - Usuários
 
-Clique em Computers, procure pelo servidor e siga a instrução abaixo:
 
+O Scan de Recomendação irá buscar por serviços, eventos e vulnerabilidades em sistemas e aplicações. Sempre que uma nova aplicação for removida, adicionada ou se você estiver vulnerável o Intrusion Prevention (virtual patching) irá proteger.
+
+Clique em Computers, procure pelo servidor e siga a instrução abaixo:
 <img src="Scan for Recommendations.jpg" alt="ADD Azure" width="75%"> </img>
 
-Repare que após a conclusão do Scan de Recomendação os modulos estarão populados com regras.
+Repare que após a conclusão do Scan de Recomendação os módulos estarão populados com regras.
 
 <img src="Recomendacoes.jpg" alt="ADD Azure" width="75%"> </img>
 
 Faça o download do script c1-ws-test-modules.sh.
 
 # Executando o Script de Teste
+
+Repare que no módulo de Intrusion Prevention o Workload Security irá recomendar varias regras de IPS impedindo que sejam exploradas falhas de segurança nessas aplicações.
 
 $sudo chmod +x c1-ws-test-modules.sh
 </br>
@@ -98,5 +102,3 @@ Você pode encontrar mais regras conforme abaixo.
 Scan de Recomendação vai aplicar as regras de forma automatica baseado em cada necessidade. 
 
 <img src="Rules.jpg" alt="ADD Azure" width="75%"> </img>
-
-
