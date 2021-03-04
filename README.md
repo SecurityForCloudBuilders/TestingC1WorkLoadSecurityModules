@@ -19,10 +19,9 @@ Para executar os testes o pré-requisito é possuir uma conta no Cloud One (sem 
 - Liberar as seguintes portas https://cloudone.trendmicro.com/docs/workload-security/communication-ports-urls-ip/
 
 # Instalando o agent
-Copie o arquivo .sh para o servidor de destino aplique uma permissão de execução e inicie a instalação.
+Copie o arquivo .sh para o servidor de destino aplique uma permissão de execução (chmod +x) e inicie a instalação.
 
 <img src="Policy.jpg" alt="ADD Azure" width="75%"> </img>
-
 
 # Habilitando os módulos
 
@@ -44,9 +43,9 @@ Settings: Heartbeat mudar para 1 minuto
 
 # Executando o Scan de Recomendação
 
-O Workload Security executa verificações de recomendação em computadores para identificar vulnerabilidades conhecidas no Sistem Operacional e nas Aplicações 
+O Workload Security executa verificações de recomendação em computadores para identificar vulnerabilidades conhecidas no Sistem Operacional e nas Aplicações.
 
-As Varreduras de Recomendação também podem ajudar a automatizar a atribuição de regras associadas não apenas ao Módulo de Prevenção de Intrusão, mas também ao módulo de Monitoramento de Integridade e até mesmo ao módulo de Inspeção de Logs.
+As Varreduras de Recomendação também podem ajudar a automatizar a atribuição de regras associadas não apenas ao Módulo de Prevenção de Intrusão mas também ao módulo de Monitoramento de Integridade módulo de Inspeção de Logs.
 
 O Recommendation Scans identifica:
 - Sistema operacional
@@ -66,8 +65,34 @@ Repare que após a conclusão do Scan de Recomendação os modulos estarão popu
 
 <img src="Recomendacoes.jpg" alt="ADD Azure" width="75%"> </img>
 
-Após isso efetue o download do Script c1-ws-test-modules.sh
+Faça o download do script c1-ws-test-modules.sh.
 
 # Executando o Script de Teste
 
+´pindorama-node1:~$ sudo chmod +x c1-ws-test-modules.sh´
+´pindorama-node1:~$ ./c1-ws-test-modules.sh´
+
+<img src="script.jpg" alt="ADD Azure" width="75%"> </img>
+
 O script não executa nenhuma atividade maliciosa que possa impactar o ambiente.
+
+
+# Objetivos & Casos de uso
+
+Cada módulo do Workload Security ajuda a identificar ataques em todas as suas fases.
+
+Anti-Malware: Ira bloquear atividades relacionados a malware, um atacante pode utizar uma ferramenta nativa do linux como o wget para baixar artefatos maliciosos.
+
+Web Reputation: Impede que o servidor se conecte em url's comprometidas baixando artefados maliciosos.
+
+Integrity Monitoring: Monitora alterações indevidas no sistema, um atacante pode agendar tarefas maliuciosas na crontab do linux ou até mesmo baixar pacotes compromentendo o sistema.
+
+Log Inspection: Ira identificar eventos suspeitos nos logs do sistema operacional e nas aplicações. Outros eventos que o Log Inspection analisa novos usuários adicionados, interface em modo promíscuo, falhas de autenticação e pacotes atualizados ou removidos.
+
+Você pode encontrar mais regras conforme abaixo.
+
+Scan de Recomendação vai aplicar as regras de forma automatica baseado em casa necessidade. 
+
+<img src="script.jpg" alt="ADD Azure" width="75%"> </img>
+
+
