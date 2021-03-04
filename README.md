@@ -69,9 +69,9 @@ Faça o download do script c1-ws-test-modules.sh.
 
 # Executando o Script de Teste
 
-´pindorama-node1:~$ sudo chmod +x c1-ws-test-modules.sh´
+pindorama-node1:~$ sudo chmod +x c1-ws-test-modules.sh
 </br>
-´pindorama-node1:~$ ./c1-ws-test-modules.sh´
+pindorama-node1:~$ ./c1-ws-test-modules.sh
 
 <img src="script.jpg" alt="ADD Azure" width="75%"> </img>
 
@@ -92,7 +92,7 @@ Cada módulo do Workload Security ajuda a identificar ataques em todas as suas f
 
 Você pode encontrar mais regras conforme abaixo.
 
-Scan de Recomendação vai aplicar as regras de forma automatica baseado em casa necessidade. 
+Scan de Recomendação vai aplicar as regras de forma automatica baseado em cada necessidade. 
 
 <img src="Rules.jpg" alt="ADD Azure" width="75%"> </img>
 
