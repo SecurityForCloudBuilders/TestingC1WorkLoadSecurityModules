@@ -70,6 +70,7 @@ Faça o download do script c1-ws-test-modules.sh.
 # Executando o Script de Teste
 
 ´pindorama-node1:~$ sudo chmod +x c1-ws-test-modules.sh´
+</br>
 ´pindorama-node1:~$ ./c1-ws-test-modules.sh´
 
 <img src="script.jpg" alt="ADD Azure" width="75%"> </img>
@@ -81,18 +82,18 @@ O script não executa nenhuma atividade maliciosa que possa impactar o ambiente.
 
 Cada módulo do Workload Security ajuda a identificar ataques em todas as suas fases.
 
-Anti-Malware: Ira bloquear atividades relacionados a malware, um atacante pode utizar uma ferramenta nativa do linux como o wget para baixar artefatos maliciosos.
+* Anti-Malware: Ira bloquear atividades relacionados a malware, um atacante pode utizar uma ferramenta nativa do linux como o wget para baixar artefatos maliciosos.
 
-Web Reputation: Impede que o servidor se conecte em url's comprometidas baixando artefados maliciosos.
+* Web Reputation: Impede que o servidor se conecte em url's comprometidas baixando artefados maliciosos.
 
-Integrity Monitoring: Monitora alterações indevidas no sistema, um atacante pode agendar tarefas maliuciosas na crontab do linux ou até mesmo baixar pacotes compromentendo o sistema.
+* Integrity Monitoring: Monitora alterações indevidas no sistema, um atacante pode agendar tarefas maliuciosas na crontab do linux ou até mesmo baixar pacotes compromentendo o sistema.
 
-Log Inspection: Ira identificar eventos suspeitos nos logs do sistema operacional e nas aplicações. Outros eventos que o Log Inspection analisa novos usuários adicionados, interface em modo promíscuo, falhas de autenticação e pacotes atualizados ou removidos.
+* Log Inspection: Ira identificar eventos suspeitos nos logs do sistema operacional e nas aplicações. Outros eventos que o Log Inspection analisa novos usuários adicionados, interface em modo promíscuo, falhas de autenticação e pacotes atualizados ou removidos.
 
 Você pode encontrar mais regras conforme abaixo.
 
 Scan de Recomendação vai aplicar as regras de forma automatica baseado em casa necessidade. 
 
-<img src="script.jpg" alt="ADD Azure" width="75%"> </img>
+<img src="Rules.jpg" alt="ADD Azure" width="75%"> </img>
 
 
