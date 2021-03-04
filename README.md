@@ -19,12 +19,28 @@ Para executar os testes o pré-requisito é possuir uma conta no Cloud One (sem 
 - Liberar as seguintes portas https://cloudone.trendmicro.com/docs/workload-security/communication-ports-urls-ip/
 
 # Instalando o agent
+Copie o arquivo .sh para o servidor de destino aplique uma permissão de execução e inicie a instalação.
 
-<img src="C1WS.jpg" alt="ADD Azure" width="75%"> </img>
+<img src="Policy.jpg" alt="ADD Azure" width="75%"> </img>
 
 
 # Habilitando os módulos
 
+Na console do Cloud One Workload Security navega no menu Policies > New > Coloque um nome (Inherit from: None) > Não iremos basear a configuração em nenhum computador.
+Habilite todos os módulos com execção do Firewall e Application Control.
+
+Selecione a opção "Open Policy Details on 'Close"
+
+<img src="C1WS.jpg" alt="ADD Azure" width="75%"> </img>
+
+Recomendações de configuração:
+
+Anti-Malware: Aggressive Configuration e Schedule Every Day All Day
+Web Reputation: Security Level Medium
+Integrity Monitoring: Habilitar o Real Time e em Recommendations escolher a opção yes
+Log Inspection: Recommendations escolher a opção yes
+Intrusion Prevention: Recommendations escolher a opção yes
+Settings: Heartbeat mudar para 1 minuto
 
 # Executando o Scan de Recomendação
 
@@ -42,9 +58,16 @@ O Recommendation Scans identifica:
 - Executando processos e serviços
 - Usuários
 
+Clique em Computers, procure pelo servidor e siga a instrução abaixo:
 
-# Alterando Heartbeat
+<img src="Scan for Recommendations.jpg" alt="ADD Azure" width="75%"> </img>
 
-<img src="PolicyLinux.jpg" alt="ADD Azure" width="75%"> </img>
+Repare que após a conclusão do Scan de Recomendação os modulos estarão populados com regras.
 
+<img src="Recomendacoes.jpg" alt="ADD Azure" width="75%"> </img>
 
+Após isso efetue o download do Script c1-ws-test-modules.sh
+
+# Executando o Script de Teste
+
+O script não executa nenhuma atividade maliciosa que possa impactar o ambiente.
