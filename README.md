@@ -69,9 +69,9 @@ Faça o download do script c1-ws-test-modules.sh.
 
 # Executando o Script de Teste
 
-pindorama-node1:~$sudo chmod +x c1-ws-test-modules.sh
+$sudo chmod +x c1-ws-test-modules.sh
 </br>
-pindorama-node1:~$./c1-ws-test-modules.sh
+$./c1-ws-test-modules.sh
 
 <img src="script.jpg" alt="ADD Azure" width="75%"> </img>
 
