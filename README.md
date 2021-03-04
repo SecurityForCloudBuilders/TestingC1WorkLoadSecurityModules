@@ -79,6 +79,7 @@ O script não executa nenhuma atividade maliciosa que possa impactar o ambiente.
 
 Após a execução dos comandos os eventos estarão disponiveis na aba "Events" de cada evento.
 
+<img src="Eventos.jpg" alt="ADD Azure" width="75%"> </img>
 
 # Objetivos & Casos de uso
 
