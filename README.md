@@ -67,7 +67,7 @@ Repare que após a conclusão do Scan de Recomendação os módulos estarão pop
 
 <img src="Recomendacoes.jpg" alt="ADD Azure" width="75%"> </img>
 
-Faça o download do script c1-ws-test-modules.sh.
+Faça o download do script https://github.com/SecurityForCloudBuilders/TestingC1WorkLoadSecurityModules/blob/main/c1-ws-test-modules.bash
 
 # Executando o Script de Teste
 
